@@ -7,7 +7,7 @@ title: AirBrake, the King of Errors!
 	Airbrake is an Error Monitoring Software, which most of us developers welcome with open arms. It basically helps you deal with Production errors, by maintaining a log for the same, capturing the exact URL, number of occurrences, the culprit file which caused the error, all in all, a complete Stack trace for you to fall back into. It looks something like this; 
 </p>
 
-![_config.yml]({{ site.baseurl }}/images/AirBrakeSnap.png)
+![_config.yml]({{ site.baseurl }}/images/airbrake-2.png)
 
 <p>
 	What you are seeing above is a snapshot of a Resolved Error, specifically *AbstractController::ActionNotFound error*.
@@ -36,13 +36,13 @@ title: AirBrake, the King of Errors!
 	The saviour code block was,
 </p>
 
-![_config.yml]({{ site.baseurl }}/images/AirBrakeSnap.png)
+![_config.yml]({{ site.baseurl }}/images/AirB1ake1.png)
 
 *Finished with that!*
 
 Another such beauty I came across was, *SidekiqStatus::Container::StatusNotFound* error.
 
-![_config.yml]({{ site.baseurl }}/images/AirBrake2.png)
+![_config.yml]({{ site.baseurl }}/images/airbrake-3.png)
 
 <p>
 	This one was a bit tricky to debug. I had to bother my teammates and we kept scratching our heads for quite some time. 
